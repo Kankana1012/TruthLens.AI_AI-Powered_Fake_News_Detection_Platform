@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or reference its methodology, please cite it as below."
+title: "TruthLens AI: An Ensemble Fake News Detection Platform Using Machine Learning, Deep Learning, and Graph Neural Networks"
+type: software
+authors:
+  - family-names: "Chakraborty"
+    given-names: "Kankana"
+    affiliation: "JIS College of Engineering"
+repository-code: "https://github.com/Kankana1012/TruthLens.AI_AI-Powered_Fake_News_Detection_Platform/"
+url: "https://github.com/Kankana1012/TruthLens.AI_AI-Powered_Fake_News_Detection_Platform/"
+version: 1.0.0
+date-released: 2026-07-10
+license: MIT
+keywords:
+  - fake-news-detection
+  - machine-learning
+  - deep-learning
+  - graph-neural-networks
+  - natural-language-processing
+  - misinformation-detection
+abstract: >
+  TruthLens AI is a fake news detection platform combining nine models across
+  three paradigms — classical machine learning (Logistic Regression, Random
+  Forest, SVM), deep learning (RNN, LSTM, CNN), and graph neural networks
+  (GCN, GAT, GraphSAGE) — trained on a 44,898-article news dataset, with a
+  React-based web dashboard for real-time prediction, model comparison, and
+  performance analytics.

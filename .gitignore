@@ -1,0 +1,22 @@
+# Node / client
+node_modules/
+client/dist/
+client/.vite/
+*.local
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Trained model artifacts 
+saved_models/*.keras
+saved_models/*.joblib
+saved_models/*.pt
+
+# OS / editor
+.DS_Store
+.vscode/
+.env

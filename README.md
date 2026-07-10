@@ -191,18 +191,95 @@ TruthLens-AI/
 - [ ] Explainable AI (SHAP/LIME) per prediction
 - [ ] Docker + cloud deployment
 
+---
+
 ## 🤝 Contributing
 
-Contributions welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md). Star ⭐ the repo, open an issue, or submit a PR.
+Contributions are welcome and greatly appreciated!
 
-## 📜 License
+Whether you're improving AI models, enhancing the React application, fixing bugs, or refining the documentation, your contributions help make **TruthLens AI** even better.
 
-[MIT](LICENSE) — see `LICENSE` for details.
+Please read the **[Contributing Guide](CONTRIBUTING.md)** before submitting a Pull Request.
 
-## 📖 Citation
-
-See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
+If you find a bug or have a feature request, feel free to open an Issue.
 
 ---
 
-<p align="center"><sub>Built with ❤️ by Kankana Chakraborty to fight misinformation using AI.</sub></p>
+## 📖 Citation
+
+If you use **TruthLens AI** in your research, academic work, or projects, please cite this repository.
+
+Citation metadata is available in the **[CITATION.cff](CITATION.cff)** file.
+
+```bibtex
+@software{truthlens_ai,
+  author = {Kankana Chakraborty},
+  title = {TruthLens AI: Intelligent Fake News Detection using Machine Learning, Deep Learning, and Graph Neural Networks},
+  year = {2026},
+  url = {https://github.com/YOUR-USERNAME/TruthLens-AI}
+}
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+See the **[LICENSE](LICENSE)** file for more information.
+
+---
+
+## 👩‍💻 Author
+
+<div align="center">
+
+### Kankana Chakraborty
+
+**AI/ML Engineer • Software Developer • AI Research Enthusiast**
+
+Passionate about building intelligent systems using **Machine Learning**, **Deep Learning**, **Natural Language Processing**, **Graph Neural Networks**, and **Full-Stack Development**.
+
+</div>
+
+<p align="center">
+
+<a href="https://github.com/YOUR-GITHUB-USERNAME">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:YOUR-EMAIL@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+## 🌟 Support the Project
+
+If you found this project useful, consider supporting it by:
+
+⭐ Starring the repository
+
+🍴 Forking the project
+
+🛠️ Contributing to the codebase
+
+🐞 Reporting bugs or suggesting improvements
+
+📢 Sharing it with others
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, don't forget to leave a Star! ⭐
+
+**Thank you for visiting TruthLens AI. Happy Coding! 🚀**
+
+</div>

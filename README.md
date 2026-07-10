@@ -4,9 +4,9 @@
   <img src="Images/Banner/banner.png" alt="TruthLens AI Banner" width="100%">
 </p>
 
-<h1 align="center">TruthLens AI</h1>
-<p align="center"><strong>Fake News Detection using Machine Learning, Deep Learning & Graph Neural Networks</strong></p>
 <p align="center"><em>Seeing Beyond Headlines. Trusting Intelligence.</em></p>
+<p align="center"><strong>An intelligent fake news detection platform powered by Machine Learning, Deep Learning, and Graph Neural Networks with a modern React web application for real-time prediction, model comparison, analytics, and explainable AI.</strong></p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -15,15 +15,6 @@
   <img src="https://img.shields.io/badge/TensorFlow-DeepLearning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch_Geometric-GNN-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
-</p>
-
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-ai-models">Models</a> •
-  <a href="#-screenshots">Screenshots</a> •
-  <a href="#-results">Results</a> •
-  <a href="#️-installation">Installation</a> •
-  <a href="#-repository-structure">Structure</a>
 </p>
 
 ---

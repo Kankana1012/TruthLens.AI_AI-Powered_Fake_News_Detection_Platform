@@ -1,6 +1,6 @@
 <div align="center"> 
 <h1 align="center"> 
-  <img src="/assets/logo.png" width="150" align="center"/>TruthLens.AI_AI-Powered_Fake_News_Detection_Platform
+  <img src="/assets/logo.png" width="50" align="center"/> TruthLens.AI_AI-Powered_Fake_News_Detection_Platform
  </h1>
 
 <img src="/assets/banner.png" alt="TruthLens AI Banner" width="100%">

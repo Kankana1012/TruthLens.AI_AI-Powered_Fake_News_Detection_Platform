@@ -1,14 +1,19 @@
-# TruthLens.AI_AI-Powered_Fake_News_Detection_Platform
+<div align="center"> 
+<h1 align="center"> 
+  <img src="/assets/logo.png" width="150" align="center"/>TruthLens.AI_AI-Powered_Fake_News_Detection_Platform
+ </h1>
 
-<p align="center">
-  <img src="Images/Banner/banner.png" alt="TruthLens AI Banner" width="100%">
-</p>
+<img src="/assets/banner.png" alt="TruthLens AI Banner" width="100%">
 
-<p align="center"><em>Seeing Beyond Headlines. Trusting Intelligence.</em></p>
-<p align="center"><strong>An intelligent fake news detection platform powered by Machine Learning, Deep Learning, and Graph Neural Networks with a modern React web application for real-time prediction, model comparison, analytics, and explainable AI.</strong></p>
+<br/>
 
+### *Seeing Beyond Headlines. Trusting Intelligence.*
 
-<p align="center">
+**An intelligent fake news detection platform powered by Machine Learning, Deep Learning, and Graph Neural Networks with a modern React web application for real-time prediction, model comparison, analytics, and explainable AI.**
+
+<br/>
+
+<p>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
@@ -16,6 +21,8 @@
   <img src="https://img.shields.io/badge/PyTorch_Geometric-GNN-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
 </p>
+
+</div>
 
 ---
 

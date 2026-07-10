@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+  .container-custom {
+    width: 94%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 4%;
+  }
+
+  .page-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 32px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+}

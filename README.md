@@ -361,7 +361,7 @@ The performance of the implemented AI models was evaluated using standard classi
 <td width="50%"><img src="/results/Exploratory_Data_Analysis/word-cloud.png" width="380"/><p align="center"></td>
 </tr>
 
-**Classical ML — Logistic Regression, Random Forest, SVM**
+**Machine Learning — Random Forest (best-performing model, 99.35% accuracy)**
 <p align="center">
   <img src="/results/Machine-Learning/ml-performance-matrix.png" width="420"/>
   <img src="/results/Machine-Learning/ml-roc-curve.png" width="380"/>
@@ -373,7 +373,7 @@ The performance of the implemented AI models was evaluated using standard classi
   <img src="/results/Deep-Learning/cnn-training-accuracy.png" width="380"/>
 </p>
 
-**Graph Neural Networks — GCN, GAT, GraphSAGE**
+**Graph Neural Networks — GraphSAGE (best-performing model, 95.00% accuracy)**
 <p align="center">
   <img src="/results/Graph-Neural-Networks/gnn-performance-matrix.png" width="420"/>
   <img src="/results/Graph-Neural-Networks/gnn-roc-curve.png" width="380"/>
@@ -430,43 +430,36 @@ jupyter notebook
 ```
 
 **Web app:**
+
+🌐***Frontend***
 ```bash
 cd Web-App/client
 npm install
 npm run dev        # http://localhost:5173
 ```
-
-## 📂 Repository Structure
-
-```text
-TruthLens-AI/
-├── AI-Research/
-│   ├── Datasets/
-│   ├── Machine-Learning/
-│   ├── Deep-Learning/
-│   ├── Graph-Neural-Network/
-│   ├── Saved-Models/
-│   ├── Results/
-│   └── Requirements/requirements.txt
-│
-├── Web-App/client/          # React + Vite frontend
-│
-├── Images/
-│   ├── Banner/  Architecture/  Workflow/
-│   ├── Screenshots/          # 6 web app pages
-│   └── Results/              # curated evaluation charts
-│
-├── README.md · CONTRIBUTING.md · CITATION.cff · LICENSE · .gitignore
+⚙️***Backend***
+```bash
+cd Web_part/server
+rm -r -fo .env
+python -m venv .env
+.env/Scripts/Activate
+pip install -r requirements.txt
+python main.py                    #http://localhost:8000
 ```
+> **Note:** Ensure that both the backend and frontend servers are running simultaneously for the application to function correctly.
+---
 
-## 🚀 Roadmap
+# ⚠️ Current Limitations
 
-- [x] 9-model ensemble (ML + DL + GNN)
-- [x] React web app — Detect, Compare, Analytics, History, Developer
-- [ ] Flask/FastAPI inference service wired to real saved models
-- [ ] Investigate/improve RNN performance (bidirectional layers, gradient clipping)
-- [ ] Explainable AI (SHAP/LIME) per prediction
-- [ ] Docker + cloud deployment
+Although TruthLens.AI demonstrates the effectiveness of multiple AI approaches for fake news detection, the current version has a few limitations:
+
+- Limited to **English-language** news articles.
+- Trained on a single publicly available fake news dataset.
+- Performance may vary on unseen or domain-specific news.
+- Graph Neural Network implementation relies on a predefined graph construction strategy.
+- The application focuses on **binary classification** (Real vs. Fake).
+- No user authentication or cloud-based data storage.
+- Models require periodic retraining to adapt to evolving misinformation patterns.
 
 ---
 
@@ -482,6 +475,26 @@ If you find a bug or have a feature request, feel free to open an Issue.
 
 ---
 
+# 🗺️ Roadmap
+
+The following roadmap outlines the planned development milestones for future versions of **TruthLens.AI**.
+
+## ✅ Version 1.0 (Completed)
+
+- [x] Fake news detection using multiple AI models
+- [x] Machine Learning model integration
+- [x] Deep Learning model integration
+- [x] Graph Neural Network (GraphSAGE) integration
+- [x] FastAPI backend development
+- [x] React.js frontend development
+- [x] Real-time prediction system
+- [x] AI model comparison
+- [x] Analytics dashboard
+- [x] Prediction history
+- [x] Responsive user interface
+
+---
+
 ## 📖 Citation
 
 If you use **TruthLens AI** in your research, academic work, or projects, please cite this repository.
@@ -493,7 +506,7 @@ Citation metadata is available in the **[CITATION.cff](CITATION.cff)** file.
   author = {Kankana Chakraborty},
   title = {TruthLens AI: Intelligent Fake News Detection using Machine Learning, Deep Learning, and Graph Neural Networks},
   year = {2026},
-  url = {https://github.com/YOUR-USERNAME/TruthLens-AI}
+  url = {https://github.com/Kankana1012/TruthLens.AI_AI-Powered_Fake_News_Detection_Platform}
 }
 ```
 
@@ -521,15 +534,15 @@ Passionate about building intelligent systems using **Machine Learning**, **Deep
 
 <p align="center">
 
-<a href="https://github.com/YOUR-GITHUB-USERNAME">
+<a href="https://github.com/Kankana1012">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
+<a href="https://www.linkedin.com/in/kankana-chakraborty">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="mailto:YOUR-EMAIL@gmail.com">
+<a href="mailto:lushichakraborty@gmail.com">
 <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
@@ -537,26 +550,12 @@ Passionate about building intelligent systems using **Machine Learning**, **Deep
 
 ---
 
-## 🌟 Support the Project
+<p align="center">
 
-If you found this project useful, consider supporting it by:
+### ⭐ If you found this project useful, consider giving it a Star on GitHub! ⭐
 
-⭐ Starring the repository
+***Thank you for visiting TruthLens.AI ❤️***
 
-🍴 Forking the project
+***Happy Coding! 🚀***
 
-🛠️ Contributing to the codebase
-
-🐞 Reporting bugs or suggesting improvements
-
-📢 Sharing it with others
-
----
-
-<div align="center">
-
-### ⭐ If you like this project, don't forget to leave a Star! ⭐
-
-**Thank you for visiting TruthLens AI. Happy Coding! 🚀**
-
-</div>
+</p>

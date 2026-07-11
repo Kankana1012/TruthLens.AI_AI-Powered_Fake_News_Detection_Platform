@@ -7,24 +7,189 @@
 
 <br/>
 
-### *Seeing Beyond Headlines. Trusting Intelligence.*
+### *"Seeing Beyond Headlines. Trusting Intelligence."*
 
-**An intelligent fake news detection platform powered by Machine Learning, Deep Learning, and Graph Neural Networks with a modern React web application for real-time prediction, model comparison, analytics, and explainable AI.**
-
-<br/>
+**An intelligent fake news detection platform powered by Machine Learning, Deep Learning, and Graph Neural Networks with a modern React web application for real-time prediction, model comparison, and analytics.**
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-DeepLearning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch_Geometric-GNN-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
+
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Graph%20Learning-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Processing-2C5AA0?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
 </p>
 
 </div>
 
 ---
+# 📖 Project Description
+
+**TruthLens.AI** is an end-to-end AI-powered fake news detection platform designed to identify misinformation using multiple Artificial Intelligence approaches within a unified web application.
+
+Unlike traditional fake news detectors that rely on a single predictive model, TruthLens.AI integrates **Machine Learning**, **Deep Learning**, and **Graph Neural Networks** to provide comparative predictions, confidence scores, and performance analytics. The platform enables users to evaluate news articles across several state-of-the-art models through an interactive React-based interface powered by a FastAPI backend.
+
+The project demonstrates the complete AI development lifecycle from data preprocessing and model training to deployment and real-time inference making it suitable for research, academic projects, and practical AI applications.
+
+---
+
+## ✨ Highlights
+
+- 🤖 Nine integrated AI prediction models
+- 🧠 Machine Learning, Deep Learning & Graph Neural Networks
+- ⚡ Real-time news authenticity prediction
+- 📊 Interactive analytics dashboard
+- 📈 Model comparison with confidence scores
+- 📚 Prediction history management
+- 🌐 Modern React + FastAPI web application
+- 🔬 Research-oriented architecture with modular AI services
+
+> **"Empowering users with explainable AI to distinguish facts from misinformation through intelligent multi-model analysis."**
+
+---
+
+# 📑 Table of Contents
+
+- [📖 Project Description](#-project-description)
+- [🎯 Project Overview](#-project-overview)
+- [🎯 Objectives](#-objectives)
+- [✨ Key Features](#-key-features)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [📂 Dataset](#-dataset)
+- [📁 Project Structure](#-project-structure)
+- [🔄 Project Workflow](#-project-workflow)
+- [🏗️ System Architecture](#️-system-architecture)
+- [🤖 Artificial Intelligence Models](#-artificial-intelligence-models)
+  - [📊 Machine Learning Models](#-machine-learning-models)
+  - [🧠 Deep Learning Models](#-deep-learning-models)
+  - [🕸️ Graph Neural Network](#️-graph-neural-network)
+- [📈 Experimental Results](#-experimental-results)
+- [💻 Web Application](#-web-application)
+- [🚀 Installation](#-installation)
+- [▶️ Running the Web Application](#️-running-the-web-application)
+- [⚠️ Current Limitations](#️-current-limitations)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📚 Citation](#-citation)
+- [👩‍💻 Author](#-author)
+
+---
+
+# 🎯 Project Overview
+
+The rapid spread of misinformation across digital platforms has become a significant challenge, influencing public opinion and decision-making. **TruthLens.AI** is an intelligent web-based fake news detection platform that leverages the power of **Machine Learning (ML)**, **Deep Learning (DL)**, and **Graph Neural Networks (GNNs)** to classify news articles as **Real** or **Fake** with high accuracy.
+
+The platform provides an interactive environment where users can analyze news content using multiple AI models, compare their predictions, visualize confidence scores, and explore model performance through an intuitive dashboard. Built with a **React.js** frontend and **FastAPI** backend, TruthLens.AI demonstrates the complete AI lifecycle—from data preprocessing and model training to deployment and real-time inference—within a modern, scalable web application.
+
+> **TruthLens.AI combines the strengths of Machine Learning, Deep Learning, and Graph Neural Networks into a single intelligent platform, enabling accurate, transparent, and real-time fake news detection through a modern AI-powered web application.**
+
+
+---
+
+# 🎯 Objectives
+
+The primary objectives of **TruthLens.AI** are:
+
+- 📰 Detect fake and real news using advanced Artificial Intelligence techniques.
+- 🤖 Integrate multiple Machine Learning, Deep Learning, and Graph Neural Network models into a unified platform.
+- ⚖️ Compare the performance of different AI models using a common interface.
+- 📊 Provide confidence scores and prediction analytics for better transparency.
+- 🌐 Deliver real-time predictions through a responsive and user-friendly web application.
+- 🧩 Demonstrate an end-to-end AI pipeline, from data preprocessing and model training to deployment.
+- 🎓 Serve as a research-oriented platform for learning, experimentation, and further development in fake news detection.
+
+---
+
+# ✨ Key Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 Artificial Intelligence
+
+- Multiple AI prediction models
+- Machine Learning algorithms
+- Deep Learning architectures
+- Graph Neural Network (GraphSAGE)
+- Confidence score estimation
+- Comparative model evaluation
+
+</td>
+
+<td width="50%">
+
+### 💻 Web Platform
+
+- Modern React.js interface
+- FastAPI RESTful backend
+- Real-time prediction
+- Interactive analytics dashboard
+- Prediction history management
+- Responsive user experience
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌟 Core Capabilities
+
+- ✅ Multi-model fake news detection platform
+- ✅ Real-time news classification
+- ✅ Side-by-side AI model comparison
+- ✅ Confidence score visualization
+- ✅ Interactive analytics dashboard
+- ✅ Prediction history tracking
+- ✅ Modular AI service architecture
+- ✅ Clean and scalable project structure
+- ✅ Research-friendly implementation
+- ✅ Easy deployment and extensibility
+
+---
+
+# 🛠️ Technology Stack
+
+TruthLens.AI integrates modern web technologies with advanced Artificial Intelligence frameworks to deliver a scalable, efficient, and user-friendly fake news detection platform.
+
+## 🚀 Tech Stack Overview
+
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | React.js, Vite, Bootstrap 5, HTML5, CSS3, JavaScript (ES6+), Axios, React Router DOM, Framer Motion, React Icons, Recharts |
+| **Backend** | Python, FastAPI |
+| **Programming Language** | Python 3.11+, JavaScript |
+| **Machine Learning** | Scikit-learn, Joblib |
+| **Deep Learning** | TensorFlow, Keras |
+| **Graph Neural Network** | PyTorch, PyTorch Geometric (GraphSAGE), NetworkX |
+| **Data Processing** | NumPy, Pandas |
+| **Natural Language Processing** | NLTK, Regex |
+| **Data Visualization** | Matplotlib, Seaborn, Recharts |
+| **Development Tools** | Git, GitHub, VS Code, Jupyter Notebook |
+| **API Testing** | Swagger UI, Postman |
+
+---
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="Images/Architecture/architecture.png" alt="System Architecture" width="90%">
+</p>
+
+---
+
+
+
+
+
 
 ## 📌 Overview
 

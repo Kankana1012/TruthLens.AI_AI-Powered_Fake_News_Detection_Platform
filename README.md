@@ -354,30 +354,51 @@ TruthLens.AI/
 
 The performance of the implemented AI models was evaluated using standard classification metrics, including **Accuracy**, **Precision**, **Recall**, **F1-Score**, and **Confusion Matrix** analysis. Comparative experiments were conducted to assess the effectiveness of Machine Learning, Deep Learning, and Graph Neural Network models for fake news detection.
 
-**Dataset**
+## **Dataset**
+
+<p align="center">
+<img src="results/Exploratory_Data_Analysis/class_distribution.png" width="50%"/>
+</p>
+
+---
+
+## **Machine Learning — Random Forest (best-performing model, 99.35% accuracy)**
+
 <table>
 <tr>
-<td width="50%"><img src="/results/Exploratory_Data_Analysis/class-distribution.png" width="380"/><p align="center"></td>
-<td width="50%"><img src="/results/Exploratory_Data_Analysis/word-cloud.png" width="380"/><p align="center"></td>
+<td width="40%"><img src="results/Machine-Learning/Random_Forest_Confusion_Matrix.png" height="400"/><p align="center"></td>
+<td width="50%"><img src="results/Machine-Learning/ROC_Curve.png" height="400"/><p align="center"></td>
 </tr>
+</table>
 
-**Machine Learning — Random Forest (best-performing model, 99.35% accuracy)**
-<p align="center">
-  <img src="/results/Machine-Learning/ml-performance-matrix.png" width="420"/>
-  <img src="/results/Machine-Learning/ml-roc-curve.png" width="380"/>
-</p>
+---
 
-**Deep Learning — CNN (best-performing model, 99.88% accuracy)**
-<p align="center">
-  <img src="/results/Deep-Learning/cnn-confusion-matrix.png" width="380"/>
-  <img src="/results/Deep-Learning/cnn-training-accuracy.png" width="380"/>
-</p>
+## **Deep Learning — CNN (best-performing model, 99.88% accuracy)**
 
-**Graph Neural Networks — GraphSAGE (best-performing model, 95.00% accuracy)**
-<p align="center">
-  <img src="/results/Graph-Neural-Networks/gnn-performance-matrix.png" width="420"/>
-  <img src="/results/Graph-Neural-Networks/gnn-roc-curve.png" width="380"/>
-</p>
+<table>
+<tr>
+<td width="40%" height="150"><img src="results/Deep Learning/cnn_confusion_matrix.png" height="400"/><p align="center"></td>
+<td width="50%" height="250"><img src="results/Deep Learning/cnn_roc_curve.png" height="400"/><p align="center"></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%"><img src="results/Deep Learning/cnn_training_and_validation_accuracy.png" height="500"/><p align="center"></td>
+<td width="50%"><img src="results/Deep Learning/cnn_training_and_validation_loss.png" height="500"/><p align="center"></td>
+</tr>
+</table>
+
+---
+
+## **Graph Neural Networks — GraphSAGE (best-performing model, 95.00% accuracy)**
+
+<table>
+<tr>
+<td width="50%"><img src="results/Graph-Neural-Networks/graphSAGE_confusion_matrix.png" height="400"/><p align="center"></td>
+<td width="50%"><img src="results/Graph-Neural-Networks/gnn_models_roc_curve.png" height="410"/><p align="center"></td>
+</tr>
+</table>
 
 ---
 
@@ -385,31 +406,41 @@ The performance of the implemented AI models was evaluated using standard classi
 
 TruthLens.AI features a modern, responsive, and interactive web application that enables users to detect fake news, compare multiple AI models, visualize performance metrics, and manage prediction history through an intuitive user interface.
 
-## 📸 Application Preview
+# 📸 Application Preview
 
-### 🏠 Home Page
+## 🏠 Home Page
 
-<p align="center"><img src="Images/Screenshots/home.png"/><b>Home</b></p>
-  
-### 🔍 Detect News
+<p align="center"><img src="results/Application Preview/home-page.png" alt="Home" width="95%"/></p>
 
-<p align="center"><img src="Images/Screenshots/detect-news.png"/><b>Detect News</b></p>
+---
 
-### ⚖️ Compare Models
+## 🔍 Detect News
 
-<p align="center"><img src="Images/Screenshots/compare-models.png"/><b>Compare Models</b></p>
+<p align="center"><img src="results/Application Preview/detect-news.png" alt="Detect New" width="95%"/></p>
 
-### 📊 Analytics Dashboard
+---
 
-<p align="center"><img src="Images/Screenshots/analytics.png"/><b>Analytics</b></p>
+## ⚖️ Compare Models
 
-### 📜 Prediction History
+<p align="center"><img src="results/Application Preview/compare-models.png" alt="Compare Models" width="95%"/></p>
 
-<p align="center"><img src="Images/Screenshots/history.png"/><b>History</b></p>
+---
 
-### 👩‍💻 Developer Page
+## 📊 Analytics Dashboard
 
-<p align="center"><img src="Images/Screenshots/developer.png"/><b>Developer</b></p>
+<p align="center"><img src="results/Application Preview/analytics-dashboard.png" alt="Analytics" width="95%"/></p>
+
+---
+
+## 📜 Prediction History
+
+<p align="center"><img src="results/Application Preview/prediction-history.png" alt="History" width="95%"/></p>
+
+---
+
+## 👩‍💻 Developer Page
+
+<p align="center"><img src="results/Application Preview/developer-contact.png" alt="Developer" width="95%"/></p>
 
 ---
 

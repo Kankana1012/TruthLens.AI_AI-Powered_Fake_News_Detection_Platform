@@ -39,14 +39,14 @@ function CompareModels() {
     setResults(null);
   };
 
-  const handleCompare = () => {
+  const handleCompare = async () => {
     if (!article.trim()) {
       toast.error("Please paste a news article first");
       return;
     }
     setLoading(true);
-    setTimeout(() => {
-      const res = runPrediction(article);
+    try {
+      const res = await runPrediction(article);
       setResults(res);
       res.forEach((r) =>
         addHistoryEntry({
@@ -58,9 +58,13 @@ function CompareModels() {
           time: r.time,
         })
       );
-      setLoading(false);
       toast.success("Comparison complete across all 9 models");
-    }, 900);
+    } catch (err) {
+      console.error(err);
+      toast.error(err.message || "Prediction failed. Check console for details.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleCopyResults = () => {

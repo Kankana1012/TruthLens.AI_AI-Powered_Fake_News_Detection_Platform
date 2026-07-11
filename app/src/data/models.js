@@ -11,8 +11,7 @@ import {
 } from "react-icons/fa";
 
 // The 9 AI models used across the platform.
-// baseAccuracy / baseSpeed are used by the mock prediction engine
-// to produce believable, consistent results per-model.
+// All metric values and predictions are retrieved dynamically from the backend APIs.
 export const MODELS = [
   {
     id: "logreg",
@@ -21,13 +20,6 @@ export const MODELS = [
     group: "ml",
     icon: FaChartLine,
     color: "#a855f7",
-    baseConfidence: 0.94,
-    baseTime: 0.02,
-    accuracy: 96.2,
-    precision: 95.1,
-    recall: 95.8,
-    f1: 95.4,
-    rocAuc: 97.1,
   },
   {
     id: "randomforest",
@@ -36,13 +28,6 @@ export const MODELS = [
     group: "ml",
     icon: FaTree,
     color: "#22c55e",
-    baseConfidence: 0.97,
-    baseTime: 0.03,
-    accuracy: 97.4,
-    precision: 96.8,
-    recall: 97.0,
-    f1: 96.9,
-    rocAuc: 98.0,
   },
   {
     id: "svm",
@@ -51,13 +36,6 @@ export const MODELS = [
     group: "ml",
     icon: FaProjectDiagram,
     color: "#38bdf8",
-    baseConfidence: 0.96,
-    baseTime: 0.04,
-    accuracy: 96.9,
-    precision: 96.1,
-    recall: 96.4,
-    f1: 96.2,
-    rocAuc: 97.6,
   },
   {
     id: "rnn",
@@ -66,13 +44,6 @@ export const MODELS = [
     group: "dl",
     icon: FaCircleNotch,
     color: "#f97316",
-    baseConfidence: 0.91,
-    baseTime: 0.12,
-    accuracy: 95.8,
-    precision: 94.9,
-    recall: 95.2,
-    f1: 95.0,
-    rocAuc: 96.8,
   },
   {
     id: "lstm",
@@ -81,13 +52,6 @@ export const MODELS = [
     group: "dl",
     icon: FaBrain,
     color: "#fb923c",
-    baseConfidence: 0.95,
-    baseTime: 0.1,
-    accuracy: 97.9,
-    precision: 97.2,
-    recall: 97.5,
-    f1: 97.3,
-    rocAuc: 98.7,
   },
   {
     id: "cnn",
@@ -96,13 +60,6 @@ export const MODELS = [
     group: "dl",
     icon: FaCube,
     color: "#3b82f6",
-    baseConfidence: 0.999,
-    baseTime: 0.07,
-    accuracy: 99.29,
-    precision: 98.7,
-    recall: 98.9,
-    f1: 98.8,
-    rocAuc: 99.6,
   },
   {
     id: "gcn",
@@ -111,13 +68,6 @@ export const MODELS = [
     group: "gnn",
     icon: FaNetworkWired,
     color: "#c084fc",
-    baseConfidence: 0.93,
-    baseTime: 0.18,
-    accuracy: 98.2,
-    precision: 97.8,
-    recall: 97.6,
-    f1: 97.7,
-    rocAuc: 98.1,
   },
   {
     id: "gat",
@@ -126,13 +76,6 @@ export const MODELS = [
     group: "gnn",
     icon: FaShareAlt,
     color: "#60a5fa",
-    baseConfidence: 0.93,
-    baseTime: 0.19,
-    accuracy: 98.6,
-    precision: 98.1,
-    recall: 98.0,
-    f1: 98.0,
-    rocAuc: 98.5,
   },
   {
     id: "graphsage",
@@ -141,13 +84,6 @@ export const MODELS = [
     group: "gnn",
     icon: FaAtom,
     color: "#22d3ee",
-    baseConfidence: 0.96,
-    baseTime: 0.16,
-    accuracy: 97.9,
-    precision: 97.3,
-    recall: 97.4,
-    f1: 97.4,
-    rocAuc: 97.8,
   },
 ];
 

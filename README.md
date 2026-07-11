@@ -210,7 +210,7 @@ TruthLens.AI utilizes a publicly available fake news dataset consisting of authe
 
 The complete dataset can be downloaded from Kaggle:
 
-🔗 **https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset**
+🔗 **https://www.kaggle.com/datasets/kankanachakraborty/fake-news**
 
 After downloading, place the dataset as follows:
 
@@ -224,8 +224,8 @@ For quick testing, this repository includes a sample dataset:
 
 ```text
 Datasets/
-├── sample_fake.csv
-└── sample_true.csv
+├── fake.zip
+└── true.zip
 ```
 
 ---
@@ -254,11 +254,74 @@ The dataset is organized into two classification labels.
 
 ---
 
+# 📁 Project Structure
+
+```text
+TruthLens.AI/
+│
+├── app/                     
+├── assets/
+├── datasets/
+├── notebooks/
+├── results/
+├── saved_models/ 
+├── gitignore/ 
+├── CITATION.cff/
+├── LICENSE
+├── README.md
+└── requirements.txt
+
+```
+
+---
+
+## 📦 Directory Overview
+
+| Directory/File | Description |
+|----------------|-------------|
+| **app/** | Source code for the React frontend, FastAPI backend, and AI prediction services. |
+| **assets/** | Project images, diagrams, screenshots, and documentation resources. |
+| **datasets/** | Sample datasets for demonstration and testing. |
+| **notebooks/** | Jupyter notebooks for data preprocessing, model training, and evaluation. |
+| **results/** | Experimental results, performance metrics, and visualizations. |
+| **saved_models/** | Trained AI models for real-time prediction. |
+| **.gitignore** | Files excluded from version control. |
+| **CITATION.cff** | Citation information for academic referencing. |
+| **LICENSE** | Open-source license information. |
+| **README.md** | Project documentation and usage guide. |
+| **requirements.txt** | Python dependencies required to run the project. |
+
+---
+
 ## 🏗️ System Architecture
 
 <p align="center">
   <img src="Images/Architecture/architecture.png" alt="System Architecture" width="90%">
 </p>
+
+> **The modular architecture of TruthLens.AI enables efficient AI model development, scalable deployment, and accurate real-time fake news detection through an integrated web platform.**
+
+---
+
+## 🏛️ Project Workflow
+
+<p align="center">
+  <img src="/assets/workflow.png" alt="System Workflow" width="90%">
+</p>
+
+## ⚙️ Workflow Steps
+
+| Step | Description |
+|------|-------------|
+| **1. Dataset Collection** | Collect fake and real news articles for model development. |
+| **2. Data Preprocessing** | Clean, normalize, tokenize, and prepare textual data. |
+| **3. Feature Engineering** | Generate meaningful representations for AI models. |
+| **4. Model Training** | Train Machine Learning, Deep Learning, and Graph Neural Network models. |
+| **5. Model Evaluation** | Assess performance using multiple evaluation metrics. |
+| **6. Model Deployment** | Save trained models and integrate them into the FastAPI backend. |
+| **7. Real-Time Prediction** | Users submit news articles through the web interface for instant prediction. |
+| **8. Result Visualization** | Display predictions, confidence scores, model comparisons, and analytics. |
+
 
 ---
 
@@ -267,37 +330,8 @@ The dataset is organized into two classification labels.
 
 
 
-## 📌 Overview
 
-**TruthLens AI** is an AI-powered fake news detection platform that trains and compares **9 models across three paradigms** — classical Machine Learning, Deep Learning, and Graph Neural Networks — on a 44,898-article dataset (35,918 train / 8,980 test), then serves them through a real-time React web app with model comparison, analytics, and prediction history.
 
-## ✨ Features
-
-| | |
-|---|---|
-| 🧠 **9-Model Ensemble** | ML, DL & GNN models trained and benchmarked side-by-side |
-| ⚡ **Real-Time Detection** | Paste any article, pick a model, get an instant Fake/Real verdict |
-| ⚖️ **Model Comparison** | Run one article through all 9 models simultaneously |
-| 📊 **Analytics Dashboard** | Accuracy/precision/recall/F1/ROC-AUC + training curves per model |
-| 🕘 **Prediction History** | Searchable log with CSV/PDF export |
-| 🌐 **Modern Web App** | React + Vite, fully responsive, dark/light theme |
-
-## 🏗️ Architecture
-
-<p align="center">
-  <img src="Images/Architecture/architecture.png" alt="System Architecture" width="90%">
-</p>
-
-## 🔄 Workflow
-
-<p align="center">
-  <img src="Images/Workflow/workflow.png" alt="Project Workflow" width="90%">
-</p>
-
-```text
-Dataset (44,898 articles) → Preprocessing → Tokenization/TF-IDF → Model Training (ML / DL / GNN)
-        → Evaluation on 8,980-article test set → Saved Models → React Web App → Real-Time Prediction
-```
 
 ## 🧠 AI Models & Real Test-Set Results
 

@@ -291,7 +291,7 @@ TruthLens.AI/
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="Images/Architecture/architecture.png" alt="System Architecture" width="90%">
+  <img src="assets/architecture.png" alt="System Architecture" width="90%">
 </p>
 
 > **The modular architecture of TruthLens.AI enables efficient AI model development, scalable deployment, and accurate real-time fake news detection through an integrated web platform.**

@@ -178,14 +178,12 @@ TruthLens.AI integrates modern web technologies with advanced Artificial Intelli
 
 ---
 
----
-
 # 📂 Dataset
 
 TruthLens.AI utilizes a publicly available fake news dataset consisting of authentic and fabricated news articles collected from reliable news sources. The dataset serves as the foundation for training, validating, and evaluating the Machine Learning, Deep Learning, and Graph Neural Network models implemented in this project for binary fake news classification.
 
 > **📝 Note**
->
+
 > The complete dataset is not included in this repository due to GitHub's storage limitations. A representative sample dataset is provided for demonstration and testing purposes. To reproduce the complete experimental results, users should download the original dataset from the source and place it in the `Datasets/` directory.
 
 ---
@@ -322,18 +320,9 @@ TruthLens.AI/
 | **7. Real-Time Prediction** | Users submit news articles through the web interface for instant prediction. |
 | **8. Result Visualization** | Display predictions, confidence scores, model comparisons, and analytics. |
 
-
 ---
 
-
-
-
-
-
-
-
-
-## 🧠 AI Models & Real Test-Set Results
+# 🧠 AI Models & Real Test-Set Results
 
 **Classical ML** — TF-IDF (2,000 features) → scikit-learn
 
@@ -361,53 +350,68 @@ TruthLens.AI/
 | GAT | 93.0% | 92.0% | 93.0% | 92.0% | 0.97 |
 | GCN | 92.0% | 91.0% | 92.0% | 92.0% | 0.97 |
 
-## 📸 Screenshots
+# 📈 Experimental Results
 
-<table>
-<tr>
-<td width="50%"><img src="Images/Screenshots/home.png"/><p align="center"><b>Home</b></p></td>
-<td width="50%"><img src="Images/Screenshots/detect-news.png"/><p align="center"><b>Detect News</b></p></td>
-</tr>
-<tr>
-<td><img src="Images/Screenshots/compare-models.png"/><p align="center"><b>Compare Models</b></p></td>
-<td><img src="Images/Screenshots/analytics.png"/><p align="center"><b>Analytics</b></p></td>
-</tr>
-<tr>
-<td><img src="Images/Screenshots/history.png"/><p align="center"><b>History</b></p></td>
-<td><img src="Images/Screenshots/developer.png"/><p align="center"><b>Developer</b></p></td>
-</tr>
-</table>
-
-## 📊 Results
+The performance of the implemented AI models was evaluated using standard classification metrics, including **Accuracy**, **Precision**, **Recall**, **F1-Score**, and **Confusion Matrix** analysis. Comparative experiments were conducted to assess the effectiveness of Machine Learning, Deep Learning, and Graph Neural Network models for fake news detection.
 
 **Dataset**
-<p align="center">
-  <img src="Images/Results/class-distribution.png" width="380"/>
-  <img src="Images/Results/word-cloud.png" width="380"/>
-</p>
+<table>
+<tr>
+<td width="50%"><img src="/results/Exploratory_Data_Analysis/class-distribution.png" width="380"/><p align="center"></td>
+<td width="50%"><img src="/results/Exploratory_Data_Analysis/word-cloud.png" width="380"/><p align="center"></td>
+</tr>
 
 **Classical ML — Logistic Regression, Random Forest, SVM**
 <p align="center">
-  <img src="Images/Results/ml-performance-matrix.png" width="420"/>
-  <img src="Images/Results/ml-roc-curve.png" width="380"/>
-</p>
-
-**Graph Neural Networks — GCN, GAT, GraphSAGE**
-<p align="center">
-  <img src="Images/Results/gnn-performance-matrix.png" width="420"/>
-  <img src="Images/Results/gnn-roc-curve.png" width="380"/>
+  <img src="/results/Machine-Learning/ml-performance-matrix.png" width="420"/>
+  <img src="/results/Machine-Learning/ml-roc-curve.png" width="380"/>
 </p>
 
 **Deep Learning — CNN (best-performing model, 99.88% accuracy)**
 <p align="center">
-  <img src="Images/Results/cnn-confusion-matrix.png" width="380"/>
-  <img src="Images/Results/cnn-training-accuracy.png" width="380"/>
+  <img src="/results/Deep-Learning/cnn-confusion-matrix.png" width="380"/>
+  <img src="/results/Deep-Learning/cnn-training-accuracy.png" width="380"/>
 </p>
 
-## 🛠️ Tech Stack
+**Graph Neural Networks — GCN, GAT, GraphSAGE**
+<p align="center">
+  <img src="/results/Graph-Neural-Networks/gnn-performance-matrix.png" width="420"/>
+  <img src="/results/Graph-Neural-Networks/gnn-roc-curve.png" width="380"/>
+</p>
 
-**AI/ML:** Python · scikit-learn · TensorFlow/Keras · PyTorch Geometric · Pandas · NumPy · Matplotlib
-**Frontend:** React · Vite · React Router · Framer Motion · Recharts · React Icons · React Hot Toast
+---
+
+# 💻 Web Application
+
+TruthLens.AI features a modern, responsive, and interactive web application that enables users to detect fake news, compare multiple AI models, visualize performance metrics, and manage prediction history through an intuitive user interface.
+
+## 📸 Application Preview
+
+### 🏠 Home Page
+
+<p align="center"><img src="Images/Screenshots/home.png"/><b>Home</b></p>
+  
+### 🔍 Detect News
+
+<p align="center"><img src="Images/Screenshots/detect-news.png"/><b>Detect News</b></p>
+
+### ⚖️ Compare Models
+
+<p align="center"><img src="Images/Screenshots/compare-models.png"/><b>Compare Models</b></p>
+
+### 📊 Analytics Dashboard
+
+<p align="center"><img src="Images/Screenshots/analytics.png"/><b>Analytics</b></p>
+
+### 📜 Prediction History
+
+<p align="center"><img src="Images/Screenshots/history.png"/><b>History</b></p>
+
+### 👩‍💻 Developer Page
+
+<p align="center"><img src="Images/Screenshots/developer.png"/><b>Developer</b></p>
+
+---
 
 ## ⚙️ Installation
 

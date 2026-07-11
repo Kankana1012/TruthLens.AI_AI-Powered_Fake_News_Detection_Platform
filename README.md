@@ -63,21 +63,18 @@ The project demonstrates the complete AI development lifecycle from data preproc
 - [🛠️ Technology Stack](#️-technology-stack)
 - [📂 Dataset](#-dataset)
 - [📁 Project Structure](#-project-structure)
-- [🔄 Project Workflow](#-project-workflow)
 - [🏗️ System Architecture](#️-system-architecture)
-- [🤖 Artificial Intelligence Models](#-artificial-intelligence-models)
-  - [📊 Machine Learning Models](#-machine-learning-models)
-  - [🧠 Deep Learning Models](#-deep-learning-models)
-  - [🕸️ Graph Neural Network](#️-graph-neural-network)
+- [🔄 Project Workflow](#-project-workflow)
+- [🤖 AI Models & Real Test-Set Results](#-ai-models-&-real-test-set-results)
 - [📈 Experimental Results](#-experimental-results)
 - [💻 Web Application](#-web-application)
 - [🚀 Installation](#-installation)
-- [▶️ Running the Web Application](#️-running-the-web-application)
+- [▶️ AI Models & Real Test-Set Results](#️-running-the-web-application)
 - [⚠️ Current Limitations](#️-current-limitations)
-- [🚀 Future Enhancements](#-future-enhancements)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+- [🗺️ Roadmap](#-roadmap)
 - [📚 Citation](#-citation)
+- [📄 License](#-license)
 - [👩‍💻 Author](#-author)
 
 ---
@@ -460,7 +457,7 @@ pip install -r Requirements/requirements.txt
 jupyter notebook
 ```
 
-**Web app:**
+## ▶️ Running the Web Application
 
 🌐***Frontend***
 ```bash

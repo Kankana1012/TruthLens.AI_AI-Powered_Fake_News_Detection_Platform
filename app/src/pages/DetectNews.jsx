@@ -43,7 +43,7 @@ function DetectNews() {
     setResult(null);
   };
 
-  const handleAnalyze = () => {
+  const handleAnalyze = async () => {
     if (!selectedModel) {
       toast.error("Please select an AI Model");
       return;
@@ -55,8 +55,8 @@ function DetectNews() {
     setLoading(true);
     setResult(null);
 
-    setTimeout(() => {
-      const [prediction] = runPrediction(article, [selectedModel]);
+    try {
+      const [prediction] = await runPrediction(article, [selectedModel]);
       setResult(prediction);
       addHistoryEntry({
         article,
@@ -66,9 +66,13 @@ function DetectNews() {
         confidence: prediction.confidence,
         time: prediction.time,
       });
-      setLoading(false);
       toast.success(`Prediction complete: ${prediction.prediction}`);
-    }, 700);
+    } catch (err) {
+      console.error(err);
+      toast.error(err.message || "Prediction failed. Check console for details.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleCopy = () => {
@@ -86,7 +90,7 @@ function DetectNews() {
           title: "TruthLens AI Prediction",
           text: `TruthLens AI predicted this article is ${result.prediction} (${result.confidence}% confidence) using ${result.modelName}.`,
         })
-        .catch(() => {});
+        .catch(() => { });
     } else {
       handleCopy();
     }

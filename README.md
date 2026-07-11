@@ -178,6 +178,82 @@ TruthLens.AI integrates modern web technologies with advanced Artificial Intelli
 
 ---
 
+---
+
+# 📂 Dataset
+
+TruthLens.AI utilizes a publicly available fake news dataset consisting of authentic and fabricated news articles collected from reliable news sources. The dataset serves as the foundation for training, validating, and evaluating the Machine Learning, Deep Learning, and Graph Neural Network models implemented in this project for binary fake news classification.
+
+> **📝 Note**
+>
+> The complete dataset is not included in this repository due to GitHub's storage limitations. A representative sample dataset is provided for demonstration and testing purposes. To reproduce the complete experimental results, users should download the original dataset from the source and place it in the `Datasets/` directory.
+
+---
+
+## 📊 Dataset Summary
+
+| Property | Value |
+|----------|-------|
+| **Dataset Name** | Fake and Real News Dataset |
+| **Source** | Kaggle |
+| **Language** | English |
+| **File Format** | CSV |
+| **Task** | Binary Text Classification |
+| **Original Samples** | **44,898** |
+| **Fake News Articles** | **23,481** |
+| **Real News Articles** | **21,417** |
+| **Number of Classes** | **2** |
+
+---
+
+## 📥 Download Dataset
+
+The complete dataset can be downloaded from Kaggle:
+
+🔗 **https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset**
+
+After downloading, place the dataset as follows:
+
+```text
+Datasets/
+├── fake.csv
+└── true.csv
+```
+
+For quick testing, this repository includes a sample dataset:
+
+```text
+Datasets/
+├── sample_fake.csv
+└── sample_true.csv
+```
+
+---
+
+## 📰 Dataset Features
+
+Each news article contains the following attributes:
+
+| Feature | Description |
+|---------|-------------|
+| **title** | Headline of the news article |
+| **text** | Complete news content |
+| **subject** | News category/topic |
+| **date** | Publication date |
+
+---
+
+## 🧠 News Categories
+
+The dataset is organized into two classification labels.
+
+| Label | Description |
+|-------|-------------|
+| 🟢 **Real News** | Authentic news articles collected from trusted news agencies. |
+| 🔴 **Fake News** | Fabricated or misleading news articles collected from unreliable sources. |
+
+---
+
 ## 🏗️ System Architecture
 
 <p align="center">
